@@ -46,7 +46,7 @@
 		
 		<div id="content-wrapper">		
 			<div id="centered">
-				<h2>2014 Targets</h2>
+				<h2>Targets</h2>
 				<?php
 				
 					class Target
