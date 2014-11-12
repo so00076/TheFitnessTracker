@@ -1,0 +1,85 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+
+html {overflow-y:scroll}
+
+body {background-color:#0d0b00; font-family:Arial;}
+body h2 {font-size:600%; color:#AAAAAA; margin-top:10px; margin-bottom:10px;}
+body .padded td {padding:5px;}
+body .header {font-weight:bold; color:#222222;}
+#centered {width:100%; overflow:hidden;}
+
+button {background:none; border: 2px solid white; font-size:30px; color:white;}
+
+#head-menu {font-family:Arial; background-color:#006F6F; padding:10px; text-align:center;}
+#head-menu ul li {margin-right:80px; font-size:1000%;}
+#head-menu ul li a {color:#DDDDDD; text-decoration:none; letter-spacing:1px;}
+#head-menu ul li a:hover {color:#00B6B6;}
+
+.head-bar {height:100px; padding:10px; color:white;}
+.cycling .head-bar {background-color:#FF2f2f;}
+.summary .head-bar {background-color:#00B6B6;}
+.head-bar h1 {font-family:"Arial"; font-size:400%; color:white; text-decoration:none; width:100px;}
+.head-bar h1 a:hover {text-decoration:underline;}
+.head-bar ul li {font-size:22px; margin-right:40px;}
+.head-bar ul li a {text-decoration:none; font-family:Arial; color:white;}
+.head-bar form select {margin-right:40px;}
+.head-bar form .rightmargin {margin-right:40px;}
+
+#header li {display:inline-block; color:#FF2f2f; margin-right:40px; font-size:25px;}
+
+#graph {width:100%;}
+#graph td {border-bottom: solid black 2px; margin-bottom:20px;}
+
+#entryform td {padding:5px; vertical-align:middle; font-size:100px;}
+#entryform label {padding-top:20px; font-size:40px;}
+#entryform input {border:none; padding:4px; font-size:100px;}
+#entryform textarea {border:none; padding:4px; font-size:60px; font-family:Arial;}
+#entryform .time {width:27%;}
+
+#slideshow {height:391px; border-radius:10px; width:850px; overflow:hidden; border:2px solid #a38702; margin:10px 0 10px 0;}
+#content {width:100%; min-height:500px; overflow:hidden;}
+#content-wrapper {background:#EEEEEE; padding-bottom:20px; padding:5px; padding-bottom:20px;}
+#content > p {font-family:"Arial"; font-size:17px; margin-bottom:10px; line-height:22px;}
+
+form select {font-size:20px;}
+
+#top-blocks {margin-top:10px; width:100%; height:180px;}
+#top-movies-home {float:left; background:#decc76; width:280px; padding:10px; border-radius:10px; margin-left:80px;}
+#top-actors-home {float:right; background:#decc76; width:280px; padding:10px; border-radius:10px; margin-right:80px;}
+#top-movies-home h1, #top-actors-home h1 {font-size:28px; font-weight:bold; margin-bottom:10px; color:#3a3000; text-align:center;}
+#top-movies-home ol , #top-actors-home ol {list-style-type:upper-roman; margin-left:35px;}
+#top-movies-home ol  li, #top-actors-home ol li {font-family:"Arial"; margin-bottom:5px;}
+#top-movies-home ol  li a, #top-actors-home ol li a { text-decoration:none; font-weight:bold;color:#6e5b01;}
+#top-movies-home ol  li a:hover, #top-actors-home ol li a:hover {text-decoration:underline; color:#d8b200;}
+
+#foot-menu {text-align:center; background:url("images/styles/bright-background.png");  height:23px; padding:10px;}
+#foot-menu ul li {display:inline-block; mergin-left:40px; margin-right:40px; font-size:20px;}
+#foot-menu ul li a {color:#3a3000; text-decoration:none; text-transform:uppercase; font-weight:bold; letter-spacing:1px;}
+#foot-menu ul li a:hover {color:#d8b200;}
+
+
+#foot-copyrights {text-align:center; background:url("images/styles/dark-background.png"); width:100%; height:100px;}
+.copyrights {font-weight:bold; font-size:18px; margin-top:10px; color:#d8b200;}
+
+#centered2 {max-width:900px; margin-left:auto; margin-right:auto;}
+
+#oneRide {background-color:#BBBBBB; border-radius:10px; font-family:Verdana; font-size:14px;}
+
+#nameORtitle {font-family:Arial; font-size:20px; color:#FF2f2f; text-decoration:none;}
+#nameORtitle a {font-family:Arial; font-size:20px; color:#FF2f2f; text-decoration:none;}
+#nameORtitle a:hover {text-decoration:underline;}
+
+#moviesORactors a {text-decoration:none; font-weight:bold; color:#a38702;}
+#moviesORactors a:hover {text-decoration:underline;}
+#score {min-width:150px; padding:10px; vertical-align:middle; color:white; font-size:60px; font-family:Arial;  text-align:center;}
+
+.target {width:100%; margin-top:30px;}
+.target .number {padding:10px; vertical-align:middle; font-size:60px; font-family:Arial; text-align:center; width:10%; color:black;}
+.target .targetbar {width:80%; border: #FF2F2F solid 3px; background:#EE7777;}
+.target .targetbonus {width:80px; border: #FF2F2F solid 3px; font-size:60px; font-family:Arial; color:black; background:#FF2F2F; text-align:center; vertical-align:middle;}
+.target .targettext {padding:10px; vertical-align:middle; font-size:60px; font-family:Arial; position:absolute; text-align:center; left:0; right:0; color:black;}
+.target .targetmover {background:#FF2F2F; height:80px;}
+
+.data tr:nth-of-type(even) {
+   background-color:#FFAAAA;
+ }
