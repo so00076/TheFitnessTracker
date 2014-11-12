@@ -1,0 +1,152 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+
+html {overflow-y:scroll}
+
+body {font-family: 'Open Sans'; font-weight:300; background:#EEEEEE;}
+body h2 {font-size:30px; color:#AAAAAA; margin-top:10px; margin-bottom:10px; font-weight:300;}
+
+.padded td {padding:5px;}
+/* header in a table (should be edited for HTML5 - in CyclingAllRides.php) */
+body .header {font-weight:bold; color:#222222;}
+#centered {width:100%; overflow:hidden;}
+#centered2 {max-width:900px; margin-left:auto; margin-right:auto;}
+
+/*.cycling h3 {color:#FF2f2f; font-size:22px;}*/
+
+button {background:none; border: 2px solid white; font-size:20px; color:white;}
+
+.head-menu {background-color:#006F6F; padding:10px;}
+.head-menu h1 {text-transform:uppercase; font-size:30px;}
+@media screen and (min-width: 1080px){
+	.head-menu ul li {display:inline-block; margin-right:80px; font-size:20px; color:#DDDDDD; font-weight:400;}
+	#mMenu {display:none;}
+}
+@media screen and (max-width: 1080px){
+	.head-menu ul li {margin-right:80px; font-size:20px; color:#DDDDDD; font-weight:400;}
+	header ul li {display:inline-block;}
+}
+.head-menu ul li a {color:#DDDDDD; text-decoration:none;}
+.head-menu ul li a:hover {color:#00B6B6;}
+
+.head-bar {height:30px; padding:10px; color:white;}
+.cycling .head-bar {background-color:#FF2f2f;}
+.summary .head-bar {background-color:#00B6B6;}
+.head-bar h1 {font-size:36px; color:white; text-decoration:none; width:100px;}
+.head-bar h1 a:hover {text-decoration:underline;}
+.head-bar ul li {display:inline-block; font-size:22px; margin-right:40px;}
+.head-bar ul li a {text-decoration:none; color:white;}
+.head-bar form select {margin-right:40px;}
+.head-bar form .rightmargin {margin-right:40px;}
+.head-bar #selected {font-weight:400;}
+
+#graph {width:100%;}
+#graph td {border-bottom: solid black 2px; margin-bottom:20px;}
+
+#entryform td {padding-right:20px; padding:5px; vertical-align:middle;}
+#entryform input {border:none; padding:4px; font-size:20px;}
+#entryform textarea {border:none; padding:4px; font-size:14px; font-family:'Open Sans';}
+#entryform .time {width:35px;}
+
+#page-header li {display:inline-block; color:#FF2f2f; margin-right:40px; font-size:22px;}
+
+#content-wrapper {padding:5px; padding-bottom:20px;}
+
+form select {font-size:20px;}
+
+footer {text-align:center; font-size:15px; padding:10px; color:#AAAAAA; font-weight:400;}
+#newStats p {font-size:16px; padding-left:5px; padding-bottom:6px; padding-top:6px; color:#AAAAAA; font-weight:400;}
+
+#oneRide {background-color:#BBBBBB; border-radius:10px; font-size:14px;}
+
+h3 {font-size:22px; text-decoration:none;  padding-bottom:5px; font-weight:300;}
+h3 a {color:#000000; text-decoration:none;}
+h3 a:hover {text-decoration:underline;}
+
+#score {min-width:150px; padding:10px; vertical-align:middle; color:white; font-size:60px;  text-align:center;}
+
+.target {width:100%; margin-top:30px;}
+.target .number {padding:10px; vertical-align:middle; font-size:60px; font-family:'Open Sans'; text-align:center; width:10%; color:black;}
+.target .targetbar {width:80%; border: none; background:#EE7777; border-radius:10px;}
+.target .targetbonus {width:80px; border: #FF2F2F solid 3px; border-radius:10px; font-size:60px; font-family:'Open Sans'; color:black; background:#FF2F2F; text-align:center; vertical-align:middle;}
+.target .targettext {padding:15px; vertical-align:middle; font-size:60px; font-family:'Open Sans'; position:absolute; text-align:center; left:0; right:0; color:black;}
+.target .info {padding:30px; vertical-align:middle; font-size:30px; font-family:'Open Sans'; position:absolute; text-align:center; left:0; right:0; color:black;}
+.target .targetmover {background:#FF2F2F; height:90px; border-radius:10px;}
+.target .info {display: none;}
+
+.target:hover .targettext {
+	display: none;
+}
+
+.target:hover .info {
+	display: inherit;
+}
+
+#calendar > tbody > tr > td {
+	width: 14%;
+	border: 2px solid #FFFFFF;
+}
+
+
+#calendar > thead td {
+	padding: 15px;
+	font-size: 22px;
+	text-align: center;
+	vertical-align: middle;
+	border: none;
+	border-left: 2px solid #FFFFFF;
+	border-right: 2px solid #FFFFFF;
+}
+
+.calCell {height:100px; overflow:hidden;}
+#thisMonth #day {font-size:22px; color:#909090;}
+#notThisMonth #day {font-size:22px; color:#BBBBBB;}
+.calCell .cycling {margin-top: 6px; width:100%;}
+.calCell .cycling td {
+	border:none;
+	padding: 4px;
+	text-align: center;
+}
+.calCell .cycling #type {background: #EE7777; width:70%;}
+.calCell .cycling #points {background: #FF9999; width:30%;}
+
+#notThisMonth .cycling #type {background: #FFBBBB;}
+#notThisMonth .cycling #points {background: #FFCCCC;}
+
+@media screen and (max-width: 1080px) {
+	.target .number {font-size:100px; width:15%;}
+	.target .targetbar {width: 70%; border: none;}
+	.target .targetbonus {font-size: 100px; width:120px;}
+	.target .targettext {font-size:100px;}
+	.target .targetmover {height:130px;}
+}
+
+@keyframes progress-bar {
+   0% {width: 0;}
+}
+@-webkit-keyframes progress-bar {
+   0% {width: 0;}
+}
+
+.tower {
+	animation: increaseHeight 10s;
+}
+
+@keyframes increaseHeight {
+   0% {height: 0;}
+}
+@-webkit-keyframes increaseHeight {
+   0% {height: 0;}
+}
+
+.data tr:nth-of-type(even) {
+   background-color:#FFAAAA;
+ }
+ 
+@media screen and (max-width: 1080px){
+	/*nav {height:0%; display:none;}*/
+	nav ul li a {font-size:100px;}
+	#foot-menu {display:none;}
+	.head-menu h1 {font-size:120px;}
+	#mMenu {display:initial; font-weight:bold; font-size:180px; position:absolute; top:-40px; right:0px; padding-right:10px;}
+	body h2 {color:pink;}
+}
